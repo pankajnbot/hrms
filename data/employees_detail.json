@@ -1,0 +1,5 @@
+[
+    {"name":"Pankaj", "emp-id": 1234, "age":26, "total-leave":11, "gender":"Male"},
+    {"name":"Shashank", "emp-id": 4556, "age":28, "total-leave":10, "gender":"Male" },
+    {"name":"Rajesh", "emp-id": 6675, "age":30, "total-leave":13, "gender":"Male"}
+]
