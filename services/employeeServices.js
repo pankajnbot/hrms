@@ -6,6 +6,7 @@ const employeesDetails = require('../data/employees_detail.json')
 }
 
  const getEmployeesByGenderCount = (gender)=>{
+     console.log("getEmployeesByGenderCount() called")
     return employeesDetails.filter(emp=>emp.gender == gender).length
 }
 
