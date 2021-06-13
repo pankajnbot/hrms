@@ -5,8 +5,7 @@ const employeesDetails = require('../data/employees_detail.json')
     return emp['total-leave']
 }
 
- const getEmployeesByGenderCount = (gender)=>{
-     console.log("getEmployeesByGenderCount() called")
+ const getEmployeesByGenderCount = (gender)=>{ 
     return employeesDetails.filter(emp=>emp.gender == gender).length
 }
 
