@@ -11,7 +11,7 @@ describe('EmployeeServiceTest', function() {
       assert.equal(employees_services.getEmployeesByGenderCount("Female"), 0);
     });
 
-    it('should return 0 when the value is Others', function() {
+    it('should return 0 when the value is Others..', function() {
       assert.equal(employees_services.getEmployeesByGenderCount("Others"), 0);
     });
   });
